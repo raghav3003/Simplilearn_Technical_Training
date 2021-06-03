@@ -35,7 +35,7 @@ public class PatternMatchingDemo {
 		System.out.println(Pattern.matches(phone_check, "+929999999999"));
 		
 		
-		String password_check = "^[A-Z][A-Za-z]*[1-9][A-Za-z]*[1-9][A-Za-z]*[1-9][A-Za-z]*";
+		String password_check = "^[A-Z][A-Za-z]*[0-9][A-Za-z]*[0-9][A-Za-z]*[0-9][A-Za-z]*";
 		
 		System.out.println("\nPassword Matching:");
 		
